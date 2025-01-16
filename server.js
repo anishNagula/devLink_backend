@@ -10,7 +10,7 @@ dotenv.config();
 const app = express();
 app.use(express.json());
 app.use(cors({
-  origin: ['https://anish-devhub.vercel.app', 'http://localhost:3000'], // Replace with your Vercel frontend URL
+  origin: ['https://anish-devhub.vercel.app',], // Replace with your Vercel frontend URL
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   credentials: true, // Allow cookies or other credentials
 }));
